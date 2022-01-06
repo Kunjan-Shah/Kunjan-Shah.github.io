@@ -15,4 +15,7 @@
 
 ## Preview
  - Desktop view
-![Game Simulation](https://github.com/Kunjan-Shah/mario-game-with-graphics/blob/main/mario-game-with-graphics-play.gif)
+![desktop-preview](https://github.com/Kunjan-Shah/WorkLister/blob/master/preview-desktop.png)
+
+ - Mobile view
+![mobile-preview](https://github.com/Kunjan-Shah/WorkLister/blob/master/preview-mobile.png)
