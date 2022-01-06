@@ -1,7 +1,7 @@
 # WorkLister
 
 ## Description
- - An iteractive Todo list to manage your everyday tasks
+ - An interactive Todo list to manage your everyday tasks
 ## Features
  - Strikethrough feature to mark the completed tasks
  - Attach a supplementary note to every task
