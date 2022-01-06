@@ -14,8 +14,5 @@
  - [WorkLister-github-pages](https://kunjan-shah.github.io/WorkLister/)
 
 ## Preview
- - Desktop view
 ![desktop-preview](https://github.com/Kunjan-Shah/WorkLister/blob/master/preview-desktop.png)
-
- - Mobile view
 ![mobile-preview](https://github.com/Kunjan-Shah/WorkLister/blob/master/preview-mobile.png)
