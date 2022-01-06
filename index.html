@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo-list</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css"/>
+    <script async defer src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <h1 class="heading">WorkLister</h1>
+        <h2 class="quote">Just Get Started</h2>
+        <div class="input-group mb-3">
+            <input id="inpTask" type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" placeholder="New task...">
+        </div>
+        <button type="button" class="btn btn-success" id="btnAdd" data-toggle="tooltip" data-placement="top" title="Add a task"><i class="fas fa-plus"></i></button>
+        <button type="button" class="btn btn-danger" id="btnClear" data-toggle="tooltip" data-placement="top" title="Clear all tasks"><i class="far fa-trash-alt"></i></button>
+        <button type="button" class="btn btn-primary" id="btnSort" data-toggle="tooltip" data-placement="top" title="Place incomplete tasks at the top"><i class="fas fa-sort-amount-down"></i></button>
+        <button type="button" class="btn btn-warning" id="btnRemove" data-toggle="tooltip" data-placement="top" title="Remove done tasks"><i class="fas fa-times"></i></button>
+        <ul id="listTasks">
+        </ul>
+    </div>
+
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+</body>
+</html>

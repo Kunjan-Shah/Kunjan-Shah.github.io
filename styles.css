@@ -1,0 +1,71 @@
+body {
+    background-color: orange;
+}
+.container {
+    margin-top: 1rem;
+}
+.heading {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 64px;
+    color: blueviolet;
+}
+
+.quote {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.fa-times {
+    color: white;
+}
+
+.task-note {
+    float: right;
+    height: 90px;
+    margin: 10px 0px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.task-done {
+    text-decoration: line-through;
+}
+
+.task-not_done {
+    text-decoration: none;
+}
+
+#listTasks li {
+    margin: 10px 0px;
+}
+
+.btnDown, .btnUp {
+    margin-right: 8px;
+}
+
+.taskText {
+    margin-left: 8px;
+    /* font-family: cursive; */
+    font-size: 20px;
+}
+
+.view-note-btn {
+    float: right;
+}
+
+.note-container {
+    display: flex;
+}
+
+.save-note-btn {
+    margin: 10px 0px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.view-note-icon-mobile {
+    margin-left: 10px;
+}
